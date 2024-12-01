@@ -16,4 +16,12 @@ after these steps on click on create VPC.
 
 ![Screenshot 2024-12-01 190639](https://github.com/user-attachments/assets/d7537bd5-63b4-4696-a6e4-f5f60b56bd39)
 
+# Create Internet gateway and attach to VPC 
+Internet Gateways. An internet gateway is a horizontally scaled, redundant, and highly available VPC component 
+that allows communication between instances in your VPC and the internet. It therefore imposes no availability risks or 
+bandwidth constraints on your network traffic.
+
+create a gateway then attach it to your VPC ,
+![Screenshot 2024-12-01 191305](https://github.com/user-attachments/assets/50158fb6-5dbc-4245-8881-373d021b6775)
+
 
