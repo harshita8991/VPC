@@ -33,3 +33,32 @@ create a VPGW-> actions -> attach to VPC
 
 ![Screenshot 2024-12-01 192031](https://github.com/user-attachments/assets/974f38e1-fd76-4c59-bd90-fa838f4a156c)
 
+# Create route tables and attach to subnets 
+Route Tables. A route table contains a set of rules, called routes that are used to determine where network 
+traffic is directed. Each subnet in your VPC must be associated with a route table; the table controls the routing for the 
+subnet. 
+One route for Internet gateway, another for Virtual private gateway (R1-IGW and R2-VGW) 
+* Route - 0.0.0.0/0 to IGW
+* Route - 192.168.0.0/16 to VGW
+
+create route tables ->then add route
+
+![Screenshot 2024-12-01 202158](https://github.com/user-attachments/assets/d69c8fc1-4d62-4775-9175-07b3a10deac6)
+
+
+![Screenshot 2024-12-01 203132](https://github.com/user-attachments/assets/017e3b80-98f4-438b-9636-798efbae722e)
+
+Attach routing tables to subnets. R1-IGW to S3-Public and S4-Public, public network required to have internet access. 
+Attach R2-VGW to S1-Private and S2-Private (No internet become a private subnets)
+
+## create instances
+
+• now we have to create two instnaces    where we have to enable the public     IPv4 .
+
+•then on both instance we have to       downlaod the web server here i have    downlaoded the apache2 server
+
+-- after that i chech that my             instances are working or not .
+
+
+
+
