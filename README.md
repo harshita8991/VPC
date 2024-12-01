@@ -59,6 +59,30 @@ Attach R2-VGW to S1-Private and S2-Private (No internet become a private subnets
 
 -- after that i chech that my             instances are working or not .
 
+![Screenshot 2024-12-01 205517](https://github.com/user-attachments/assets/a9c2ac11-65f8-44ca-a734-f58f7cfa0b55)
 
+
+## now we have to create the load         balancer
+
+--where we have to give vpc, aviablity   zone of the ec2 instance
+
+•then we have to create the target      group where we have to select the two  insatance we have create then we have  to go to helath check edited option    which was present below the load       balancer is create ,then edit it
+
+
+•after that come to load balancer       where we have to select the target     group which we have created then make  the load balancer , it will look like  the given image below .
+![5](https://github.com/user-attachments/assets/aad3a002-0308-49e2-9539-6674968dd22a)
+
+
+*now put on any one instance write following commands in putty -*
+
+* ```
+  htop
+  ```
+  ```
+  seq 999999999999999999999999999999999999999999999999999999999 > /dev/null &
+  ```
+  ```
+  htop
+  ```
 
 
