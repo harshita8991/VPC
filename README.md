@@ -22,6 +22,14 @@ that allows communication between instances in your VPC and the internet. It the
 bandwidth constraints on your network traffic.
 
 create a gateway then attach it to your VPC ,
+
 ![Screenshot 2024-12-01 191305](https://github.com/user-attachments/assets/50158fb6-5dbc-4245-8881-373d021b6775)
 
+# Create Virtual Private Gateway and Attach to VPC 
+It can be a physical or software appliance. The anchor on the AWS side of the VPN connection is called a virtual 
+private gateway. The following diagram shows your network, the customer gateway, the VPN connection that goes to 
+the virtual private gateway, and the VPC.
+create a VPGW-> actions -> attach to VPC
+
+![Screenshot 2024-12-01 192031](https://github.com/user-attachments/assets/974f38e1-fd76-4c59-bd90-fa838f4a156c)
 
