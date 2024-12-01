@@ -10,6 +10,10 @@ for creating a VPC , follow the following steps:
 go to AWS Console ,then click Services ,then go to Networking & Content Delivery , click on VPC , click on Your VPCs.
 after these steps on click on create VPC.
 
-![Screenshot 2024-12-01 183614](https://github.com/user-attachments/assets/c1fd09a4-2b9b-42f9-bfb2-57f9e48480b3)
+![Screenshot 2024-12-01 184945](https://github.com/user-attachments/assets/1dd28f0d-995e-4fa9-a5a8-58195eb430b3)
 
- #Create subnets
+ # Create subnets
+
+![Screenshot 2024-12-01 190639](https://github.com/user-attachments/assets/d7537bd5-63b4-4696-a6e4-f5f60b56bd39)
+
+
